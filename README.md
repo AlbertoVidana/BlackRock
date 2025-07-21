@@ -10,7 +10,6 @@ Completed:
     * Parse
     * Validator
     * Filter
-TODO:
     * PPR
     * Ishares
     * Performance
@@ -65,5 +64,15 @@ http://localhost:8080/blackrock/challenge/v1/transactions/filter
         {"date": "2023-11-12 08:09", "amount": 480}
     ]
 }
+
+Returns
+    GET:ppr
+        http://localhost:8080/blackrock/challenge/v1/returns/ppr
+    GET:ppr
+        http://localhost:8080/blackrock/challenge/v1/returns/ishares
+
+Performance
+    GET:
+        http://localhost:8080/blackrock/challenge/v1/performance
 
 
