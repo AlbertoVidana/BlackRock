@@ -7,7 +7,13 @@ This is the repo for the code challenge of Mexico 07/18/2025
 Chihuahua, Chih. Mexico
 
 ** Up and running on **
+AWS:
 ec2-3-144-194-247.us-east-2.compute.amazonaws.com:8080/blackrock/challenge/v1
+** Repos **
+GitLab:
+https://gitlab.com/bert4help/blackrock/-/tree/400f54abc9513114202a3bc5970be30d7401ba56/
+GitHub:
+https://github.com/AlbertoVidana/BlackRock/
 
 Completed:
     * Parse
