@@ -31,9 +31,9 @@ public class TransactionController {
 
     @PostMapping("/parse")
     public ResponseEntity<List<?>> getParse(@RequestBody List<Transaction> transactions) {
+        System.out.println("*********** parse *********** ");
         if (transactions == null || transactions.isEmpty()) {
             //TODO: Change null to an empty list or a specific error message
-            System.out.println("*********** No transactions to parse *********** ");
             return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);
         }
         // TODO: validate one by one and add to a list of errors
